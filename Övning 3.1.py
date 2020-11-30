@@ -6,5 +6,3 @@ elif abonnemang > 33 and abonnemang < 66: #Om inputen var mellan 33 och 66 så s
     print("Välj normal abonnemanget")
 elif abonnemang <= 66: #Om man skriver något högre än 66 så kommer den skriva ut att man ska använda sig av plus abonnemanget
     print("Välj plus abonnemanget")
-else: #Elsen kommer att skrivas ut om man inte skriver ett giltigt tal. Elsen behövs inte ens användas för att det kommer crasha om du inte skriver ett heltal. 
-    print('Ange ett giltigt tal!')
